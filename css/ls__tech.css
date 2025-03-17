@@ -43,10 +43,10 @@ body {
 }
 
 /*header*/
-.logo {
+.logo{
     background: url(../images/logo.png);
     width: 100px;
-    height: 36px;
+    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -56,43 +56,12 @@ ul a{
     text-decoration: none;
     color: #222;
 }
-.nav {
-    margin: 0 auto; /* 수평 중앙 정렬 */
-    display: flex;
-    justify-content: center; /* 내부 요소도 중앙 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
-}
-.gnb {
+.gnb{
     width: 940px;
-    display: flex;
-    justify-content: center; /* 가운데 정렬 */
-    align-items: center; /* 세로 중앙 정렬 */
-    height: 60px; /* 전체 gnb 높이 설정 */
 }
-.gnb ul {
+.gnb ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width:auto;
-    height: 100%; /* gnb 높이에 맞춤 */
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.gnb ul li {
-    display: flex;
-    align-items: center; /* 세로 중앙 정렬 */
-    width: auto;
-    height: 100%;
-}
-
-.gnb ul li a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #222;
-    height: 100%;
-    padding: 0 15px;*/ /* 좌우 간격 */
 }
 .lan{
     border: 1px solid #222;
@@ -100,6 +69,14 @@ ul a{
     width: 135px;
     height: 36px;
     text-align: center;
+}
+
+.nav{
+    width: 1420px;
+    height: 90px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 /*header end*/
 
